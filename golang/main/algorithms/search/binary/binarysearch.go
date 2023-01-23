@@ -21,12 +21,12 @@ func BinarySearch() {
 		} else if guess > item {
 			high = mid - 1
 		} else {
-			fmt.Println("Item found at:", mid+1, "place in array")
+			fmt.Println("Item found at:", mid, "place in array")
 			break
 		}
 	}
 }
 
 func setupArray() []int {
-	return []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	return []int{1, 2, 3, 4}
 }
